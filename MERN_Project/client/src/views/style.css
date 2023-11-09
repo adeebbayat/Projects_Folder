@@ -1,0 +1,156 @@
+.topBar{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(20,0,88);
+    padding:20px 0px;
+    margin-bottom: 30px;
+}
+.leftSide{
+    margin-left: 150px;
+}
+.rightSide{
+    margin-right: 150px;
+    display: flex;
+    gap:50px;
+}
+.carousel{
+    width:70%;
+    margin:auto;
+}
+.carousel .carousel-item {
+    height: 500px;
+}
+
+.carousel-item img {
+    position: absolute;
+    object-fit: cover;
+    top: 0;
+    left: 0;
+    min-height: 500px;
+}
+.bookStay{
+    text-shadow: 3px 3px black;
+}
+.statusBar{
+    display:flex;
+    justify-content: center;
+    gap:200px;
+}
+.goBack{
+    text-align: center;
+    margin-left: 150px;
+    margin-top:10px;
+}
+.homeImage{
+    margin:0px 20px;
+}
+.homeImageDiv{
+    display:flex;
+    justify-content: center;
+    margin:50px 0px;
+    flex-wrap: wrap;
+}
+
+.missionStatementText{
+    margin:20px 500px;
+    color:white;
+}
+.stayHome{
+    color:white;
+    font-size: 32pt;
+}
+.missionStatement{
+    background-color: rgb(20, 0, 88);
+    padding:20px 0px;
+}
+.midBar{
+    margin:50px 0px;
+}
+.secondFromBottom{
+    padding:100px 0px;
+}
+.firstFromBottom{
+    padding:100px 0px;
+    background-color: rgb(20,0,88);
+}
+.botBarText{
+    color:white;
+}
+.goBack{
+    margin-right: 165px;
+    margin-bottom: 10px;
+}
+.maps{
+    display: flex;
+    align-items: center;
+    gap:30px;
+    margin-bottom: 20px;
+}
+
+.ownerRequestContainer{
+    display: flex;
+    gap:30px;
+    justify-content: center;
+}
+.approveOrDeny{
+    margin-bottom:20px;
+    display: flex;
+    gap:20px;
+}
+.approve{
+    margin-right: 10px;
+}
+
+.requestSpace{
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.listingInfo{
+    display:flex;
+    justify-content: center;
+    gap:30px;
+    margin-bottom: 100px;
+}
+.listingText{
+    text-align: left;
+}
+.ownerListingInfo{
+    display: flex;
+    justify-content: center;
+    margin-bottom:130px;
+    gap:30px;
+}
+.ownerListingInfoText{
+    text-align: left;
+}
+.hello{
+    margin-bottom: 30px;
+}
+.newListing{
+    display: flex;
+    justify-content: center;
+    gap:40px;
+    margin-bottom: 200px;
+}
+.botBar{
+    display: flex;
+    color:white;
+    justify-content: center;
+    gap:50px;
+    background-color: rgb(20,0,88);
+    padding:10px 0px;
+    align-items: center;
+}
+.signUpForm{
+    margin-bottom: 200px;
+}
+.loginForm{
+    margin-bottom: 250px;
+}
+.noListingFound{
+    margin-bottom: 320px;
+}
+.little{
+    margin-bottom: 20px;
+}
